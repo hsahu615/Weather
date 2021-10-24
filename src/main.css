@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inputBar {
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  margin-right: 40px;
+  align-items: center;
+}
+input {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+input:focus {
+  border: 3px solid white;
+  outline: none;
+}
+.result {
+  width: 20%;
+  height: 60vh;
+  background-color: rgba(0, 0, 139, 0);
+  color: white;
+  border-radius: 20px;
+  margin-left: 40%;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  color: white;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.temperature div h1 {
+  font-size: 80px;
+  color: white;
+  margin-left: 20px;
+}
+#temp2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.citytimezone {
+  margin-top: 40px;
+  text-align: center;
+}
+#cityName {
+  font-size: 30px;
+}
+#timezone {
+  font-style: italic;
+}
+
+.bi-sunset {
+  color: white;
+  height: 35px;
+}
+
+.sun {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sunset,
+.sunrise {
+  flex-direction: row;
+  display: flex;
+  gap: 0px;
+  font-size: 26px;
+}
+
+.sunset img,
+.sunrise img {
+  height: 30px;
+  width: 30px;
+}
